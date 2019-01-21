@@ -58,5 +58,5 @@ Comment obtenir le: twitterUserId
 
 3/ Vous obtiendrez le "Twitter User Id" (exemple pour realDonaldTrump: 25073877)
 
-Vous obtenez donc le twitterUserId qui est à spécifier en entrée de l'Appli pour pouvoir filtrer sur un compte twitte en particulier.
+Vous obtenez donc le twitterUserId qui est à spécifier en entrée de l'Appli pour pouvoir filtrer sur un compte twitter en particulier.
 
