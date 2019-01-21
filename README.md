@@ -25,10 +25,14 @@ The developer may need to create a twitter account, if they don't have one and d
 
 #RUN
 
-Voici les 5 entrees pour à spécifier pour pouvoir lancer l'application
-<consumerKey>, <consumerSecret>, <accessToken>, <accessTokenSecret>, <twitterUserId>
+Voici les 5 entrees à spécifier en entrée de l'application:
+- consumerKey
+- consumerSecret
+- accessToken
+- accessTokenSecret
+- twitterUserId
 
-Comment obtenir les 4 clefs ?
+Comment obtenir les 4 premières entrées : consumerKey, consumerSecret, accessToken, accessTokenSecret
 
 1/Create a new Twitter account to use as the event's Twitter account at https://twitter.com/signup. The shorter the handle, the better — allows for longer questions/comments to be submitted.
 
@@ -45,3 +49,14 @@ Application settings
 Once the application has successfully been created, visit the Settings tab for the application. Select the Read and Write radio button and click Update this Twitter application's settings. This sets the proper permissions for the application to query and post new tweets to the account.
 
 Visit the Details tab again. Take note of the consumer key, consumer secret, access token, and access secret — you'll need these when customizing Ospriet. If the access token/secret are not shown, click Create my access token at the bottom of the page.
+
+Comment obtenir le: twitterUserId
+
+1/ Ouvrer le lien ci-dessous: http://gettwitterid.com/
+
+2/ Entrer votre "Twitter Username" (exemple: realDonaldTrump)
+
+3/ Vous obtiendrez le "Twitter User Id" (exemple pour realDonaldTrump: 25073877)
+
+Vous obtenez donc le twitterUserId qui est à spécifier en entrée de l'Appli pour pouvoir filtrer sur un compte twitte en particulier.
+
