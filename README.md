@@ -22,3 +22,26 @@ https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-obje
  
 
 The developer may need to create a twitter account, if they don't have one and do some prerequisites  like creating access_token and tonken_secret in order to start consuming timeline of a twitter account.
+
+#RUN
+
+Voici les 5 entrees pour à spécifier pour pouvoir lancer l'application
+<consumerKey>, <consumerSecret>, <accessToken>, <accessTokenSecret>, <twitterUserId>
+
+Comment obtenir les 4 clefs ?
+
+1/Create a new Twitter account to use as the event's Twitter account at https://twitter.com/signup. The shorter the handle, the better — allows for longer questions/comments to be submitted.
+
+2/Create a new application
+While signed in under this new Twitter account, visit dev.twitter.com/apps.
+
+Click Create an application.
+
+Assign a name, description, and URL to the application. If you don't know the URL of your application yet, that's fine, you can change it later when you know. Click the Yes, I agree checkbox, fill out the CAPTCHA, and click Create your Twitter application.
+
+The name you assign the application is what will appear as the source attribute on tweet metadata, and will be shown in the via field on twitter.com. Instead of via web, it will read via [your app name]. You can change this name at any time.
+
+Application settings
+Once the application has successfully been created, visit the Settings tab for the application. Select the Read and Write radio button and click Update this Twitter application's settings. This sets the proper permissions for the application to query and post new tweets to the account.
+
+Visit the Details tab again. Take note of the consumer key, consumer secret, access token, and access secret — you'll need these when customizing Ospriet. If the access token/secret are not shown, click Create my access token at the bottom of the page.
